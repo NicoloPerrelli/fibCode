@@ -27,7 +27,6 @@ public class fibCodeRec {
 
 		//checks if we even need to enter the funtion b/c count may be too small
 		if(count > 2 ){
-			System.out.println("in the if");
 			fibonacci(count-2);
 		}
 	}
